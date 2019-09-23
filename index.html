@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    
+<style>#map{
+  width: 900px;
+  max-width: 100%;
+  height: 500px;
+}</style>
+  </head>
+  <body>
+    <div class="container">
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Store Locations
+      </h1>
+      <br>
+      
+      <p class="subtitle">
+        Reverse Geocode <strong>locations</strong>!
+      </p>
+      <br>
+    </div>
+    <div id="map"></div>
+    <div id="info_div"></div>
+    <br>
+    <p id="demo"></p>
+  </section></div>
+  </body>
+
+
+  
+
+    <script src="./app.js"></script>
+    <script src="bundle.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChDX4jWQbIHchA1qO2YRORrve_Q12WuWE&callback=initMap" async defer></script>
+  </body>
+</html>

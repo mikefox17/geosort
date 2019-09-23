@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "storeName": "Target",
+    "storeAddress": "3100 14th St NW 201, Washington, DC 2001",
+    "zipcode": 20781,
+    "long": -10.8544921875,
+    "lat": 49.82380908513249
+  },
+  {
+    "id": 1,
+    "storeName": "Walmart",
+    "storeAddress": "99 H St NW, Washington, DC 200011",
+    "zipcode": 10001,
+    "long": -10.8544921875,
+    "lat": 59.478568831926395
+  },
+  {
+    "id": 2,
+    "storeName": "Best Buy",
+    "storeAddress": "4710 Cherry Hill Rd, College Park, MD 20740",
+    "zipcode": 90001,
+    "long": 2.021484375,
+    "lat": 49.82380908513249
+  }
+]
